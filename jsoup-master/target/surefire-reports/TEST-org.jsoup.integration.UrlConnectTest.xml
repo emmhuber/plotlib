@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jsoup.integration.UrlConnectTest" time="0" tests="1" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.392-b08"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/emmhuber/jsoup-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/emmhuber/jsoup-master"/>
+    <property name="java.runtime.version" value="1.8.0_392-8u392-ga-1~16.04-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="net.sourceforge.cobertura.datafile" value="/home/emmhuber/jsoup-master/target/cobertura/cobertura.ser"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-1158-gcp"/>
+    <property name="user.home" value="/home/emmhuber"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="emmhuber"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher cobertura:cobertura"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_392"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="project.build.outputDirectory" value="/home/emmhuber/jsoup-master/target/generated-classes/cobertura"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="org.jsoup.integration.UrlConnectTest" classname="org.jsoup.integration.UrlConnectTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[[DEBUG] stopping org.eclipse.jetty.server.Server@757942a1
+[DEBUG] Graceful shutdown org.eclipse.jetty.server.Server@757942a1 by 
+[DEBUG] stopping ServerConnector@67b467e9{HTTP/1.1}{0.0.0.0:0}
+[DEBUG] stopping org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@710726a3
+[DEBUG] stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@2b4a2ec7 keys=1 selected=0
+[DEBUG] Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@2b4a2ec7 keys=1 selected=0
+[DEBUG] flushed 2070 SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,Open,in,out,-,W,10/30000,HttpConnection}{io=0,kio=0,kro=1}
+[DEBUG] update WriteFlusher@3fddabf9{IDLE}:WRITING-->IDLE
+[DEBUG] org.eclipse.jetty.server.HttpConnection$SendCallback@38417c53[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@70f9cfb1] generate: DONE ([p=151,l=151,c=8192,r=0],[p=1919,l=1919,c=32768,r=0],true)@END
+[DEBUG] reset HttpParser{s=END,45534 of 45534}
+[DEBUG] END --> START
+[DEBUG] HttpChannelOverHttp@495b25b6{r=17,c=false,a=IDLE,uri=} handle exit, result COMPLETE
+[DEBUG] filled 0 SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+[DEBUG] Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@6973b51b
+[DEBUG] Selector loop woken up from select, 0/1 selected
+[DEBUG] Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@6973b51b
+[DEBUG] filled 0 SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+[DEBUG] parseNext s=START HeapByteBuffer@3860cf39[p=0,l=0,c=16384,r=0]={<<<>>>/ipod/" class=l o...://www.cnet.com}
+[DEBUG] fillInterested HttpConnection@7ef5438c[FILLING,SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@495b25b6{r=17,c=false,a=IDLE,uri=}]
+[DEBUG] FILLING-->FILLING_FILL_INTERESTED HttpConnection@7ef5438c[FILLING_FILL_INTERESTED,SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@495b25b6{r=17,c=false,a=IDLE,uri=}]
+[DEBUG] onClose SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,CLOSED,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}
+[DEBUG] FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@7ef5438c[FILL_INTERESTED,SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,CLOSED,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@495b25b6{r=17,c=false,a=IDLE,uri=}]
+[DEBUG] close SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,CLOSED,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}
+[DEBUG] Destroyed SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,CLOSED,ISHUT,OSHUT,-,-,2/30000,HttpConnection}{io=0,kio=-1,kro=-1}
+[DEBUG] onClose HttpConnection@7ef5438c[FILL_INTERESTED,SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,CLOSED,ISHUT,OSHUT,-,-,2/30000,HttpConnection}{io=0,kio=-1,kro=-1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@495b25b6{r=17,c=false,a=IDLE,uri=}]
+[DEBUG] onClose SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,CLOSED,ISHUT,OSHUT,-,-,2/30000,HttpConnection}{io=0,kio=-1,kro=-1}
+[DEBUG] Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@2b4a2ec7 keys=-1 selected=-1
+[DEBUG] STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@2b4a2ec7 keys=-1 selected=-1
+[DEBUG] STOPPED org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@710726a3
+[DEBUG] stopping HttpConnectionFactory@401e7803{HTTP/1.1}
+[DEBUG] STOPPED HttpConnectionFactory@401e7803{HTTP/1.1}
+[DEBUG] stopping org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@2eda0940
+[DEBUG] Stopped Thread[qtp1295083508-10-selector-ServerConnectorManager@710726a3/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@2b4a2ec7 keys=-1 selected=-1
+[DEBUG] STOPPED org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@2eda0940
+[INFO] Stopped ServerConnector@67b467e9{HTTP/1.1}{0.0.0.0:0}
+[DEBUG] STOPPED ServerConnector@67b467e9{HTTP/1.1}{0.0.0.0:0}
+[DEBUG] stopping org.eclipse.jetty.server.Server@757942a1
+[DEBUG] stopping org.eclipse.jetty.servlet.ServletHandler@6fb0d3ed
+[DEBUG] stopping org.eclipse.jetty.servlet.ServletHandler@6fb0d3ed
+[DEBUG] stopping org.jsoup.integration.servlets.HelloServlet-56620197@7095ab87==org.jsoup.integration.servlets.HelloServlet,-1,true
+[DEBUG] STOPPED org.jsoup.integration.servlets.HelloServlet-56620197@7095ab87==org.jsoup.integration.servlets.HelloServlet,-1,false
+[DEBUG] stopping org.jsoup.integration.servlets.Deflateservlet-20ce78ec@dd964f63==org.jsoup.integration.servlets.Deflateservlet,-1,true
+[DEBUG] STOPPED org.jsoup.integration.servlets.Deflateservlet-20ce78ec@dd964f63==org.jsoup.integration.servlets.Deflateservlet,-1,false
+[DEBUG] stopping org.jsoup.integration.servlets.EchoServlet-4d826d77@c3668314==org.jsoup.integration.servlets.EchoServlet,-1,true
+[DEBUG] STOPPED org.jsoup.integration.servlets.EchoServlet-4d826d77@c3668314==org.jsoup.integration.servlets.EchoServlet,-1,false
+[DEBUG] stopping org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-74294adb@c5dc1d63==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+[DEBUG] STOPPED org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-74294adb@c5dc1d63==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+[DEBUG] STOPPED org.eclipse.jetty.servlet.ServletHandler@6fb0d3ed
+[DEBUG] stopping qtp1295083508{STARTED,8<=8<=200,i=7,q=0}
+[DEBUG] Ignoring local interests update 0 -> 0 for SelectChannelEndPoint@804c46c{/127.0.0.1:56650<->32773,CLOSED,ISHUT,OSHUT,R,-,0/30000,HttpConnection}{io=0,kio=-1,kro=-1}
+[DEBUG] STOPPED qtp1295083508{STOPPED,8<=8<=200,i=0,q=0}
+[DEBUG] STOPPED org.eclipse.jetty.server.Server@757942a1
+]]></system-out>
+  </testcase>
+</testsuite>
